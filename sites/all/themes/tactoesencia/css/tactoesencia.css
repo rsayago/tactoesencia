@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+#header {
+    padding: 0px;
+}
+
+#site-name > a {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 70px;
+    color: #F9A392;
+    margin-top: 10px;
+}
+
+#site-slogan {
+    font-size: 15px;
+    display: block;
+}
+
+
+.breadcrumb,
+.page-title {
+    display: none;
+}
+
+div.container {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+#main-navigation {
+    background-color: transparent;
+    float: right;
+    padding: 0px;
+    box-shadow: none;
+}
+
+ a.active {
+    padding: 0px!important;
+    border-bottom: 2px solid pink;
+}
+
+
+.col-md-12 {
+    height: 10%;
+}
+
+div.col-md-12 > div{
+    display:inline-block;
+    
+}
+
+#logo {
+    width: 80px;
+    border-radius: 50px;
+}
+
+.t-p1 div.field-items {
+	width: 46%;
+    margin-right: 4%;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.i-p1 div.field-items img{
+	width: 46%;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+div.entity.entity-paragraphs-item.paragraphs-item-texto-e-imagen {
+	display: inline-block;
+}
+
+.t-p2 div.field-items {
+	width: 46%;
+    margin-right: 4%;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.i-p2 div.field-items img{
+	float: left;
+	width: 46%;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.bannerPortada > img {
+    width: 100%;
+}
+
+
+
+img {
+
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 3px;
+
+ }
+
+div.view-content {
+    background-color: #F8F8F8;
+}
+
+ div.imp > a > img {
+    //border-radius: 15px 50px;
+ }
+
+
+
+.msj-grid {
+    display: inline-block;
+    vertical-align:top;
+    padding: 1%;
+    width: 33%;
+}
+
+.msj-block {
+    //background-color: #BBD46D;
+    //padding: 5%;
+    //border-radius: 0% 25% 0% 0%;
+}
+
+.msj-title {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 40px;
+    font: bold;
+    margin:auto; 
+    display:table;
+    padding: 2%;
+}
+.msj-duracion{
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 25px;
+}
+.resumen-msj {
+    font-family: 'Courgette', cursive;
+    padding: 7%;
+    //border: 1px solid blue;
+    border-radius: 0px 0px 0px 20px;
+    background-color: #8ED4CC;
+    top: -25%;
+    width: 60%;
+    margin-left: 10px;
+    margin:auto; 
+    display:table;
+    position: relative;
+    margin-top: -50px;
+}
+.msj-precio {
+
+    background-color: #F9A392;
+    border-radius: 25px;
+    font-family: 'Mr De Haviland', cursive;
+}
+span.views-field-field-masajes-duracion,
+span.views-field-field-masajes-precio {
+    font-size: 20px;
+    font: bold;
+    margin:auto; 
+    display:table;
+    padding: 3%;
+}
+
+.glyphicon {
+    font-size:70pt;
+    transform: scaleX(0.3);
+    z-index: 99;
+    background: transparent;
+    color: #889EAA;
+    border: none;
+}
+
+.glyphicon-chevron-left {
+position: absolute;
+top: 35%;
+left:0%;
+}
+
+.glyphicon-chevron-right {
+position: absolute;
+top: 35%;
+right: 0%;
+
+}
+
+.text-form {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 50px;
+    color: #F9A392;
+    font: bold;
+    margin:auto; 
+    display:table;
+    padding: 2%;
+}
+input#edit-submitted-telefono.form-text.form-number.required {
+    border-radius: 35px;
+}
+
+.slick-text {
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+    color: white;
+    margin:auto; 
+    display:table;
+    text-align: center;
+    margin-top: -150px!important;
+}

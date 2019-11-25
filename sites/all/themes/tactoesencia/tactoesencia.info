@@ -1,0 +1,55 @@
+name = Tactoesencia
+base theme = bootstrap_business
+description = Drupal Theme provided by Rafa
+
+version = VERSION
+core = 7.x
+
+
+stylesheets[all][] = /css/tactoesencia.css
+stylesheets[all][] = /css/slick.css
+
+regions[pre_header_first] = Pre Header First
+regions[pre_header_second] = Pre Header Second
+regions[pre_header_third] = Pre Header Third
+regions[header_top_left] = Header Top Left
+regions[header_top_right] = Header Top Right
+regions[header] = Header
+regions[navigation] = Navigation
+regions[banner] = Banner
+regions[highlighted] = Highlighted
+regions[promoted] = Promoted
+regions[content] = Content
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[bottom_content] = Bottom Content
+regions[footer_first] = Footer First
+regions[footer_second] = Footer Second
+regions[footer_third] = Footer Third
+regions[footer_fourth] = Footer Fourth
+regions[footer] = Footer
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+settings[breadcrumb_display]= 1
+settings[scrolltop_display]= 1
+settings[responsive_respond]= 0
+settings[bootstrap_css_cdn]= 3.2.0
+
+
+scripts[] = js/tactoesencia.js
+
+
+
+;scripts[] = js/libs/jquery.flexslider-min.js
+;scripts[] = js/libs/jquery.stickyelement.min.js
+
+
+ ;scripts[] = js/libs/sticky-sidebar.min.js
+
+
+; Other JS libs
+scripts[] = js/libs/slick.min.js
+
+
