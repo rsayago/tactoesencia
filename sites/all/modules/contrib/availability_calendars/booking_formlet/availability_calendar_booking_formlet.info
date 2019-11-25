@@ -1,0 +1,12 @@
+name = Availability Calendar Booking formlet
+description = Defines a booking formlet for an availability calendar field.
+package = Fields
+core = 7.x
+
+dependencies[] = availability_calendar
+
+; Information added by Drupal.org packaging script on 2019-02-20
+version = "7.x-5.7"
+core = "7.x"
+project = "availability_calendars"
+datestamp = "1550695459"
