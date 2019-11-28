@@ -204,7 +204,7 @@ right: 0%;
     padding: 2%;
 }
 input#edit-submitted-telefono.form-text.form-number.required {
-    border-radius: 35px;
+    border-radius: 0px;
 }
 
 .slick-text {
