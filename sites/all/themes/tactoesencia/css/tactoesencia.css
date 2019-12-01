@@ -1,127 +1,146 @@
+/* Charge fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* Show off elements */
 
 #header {
-    padding: 0px;
+	display: none;
 }
-
-#site-name > a {
-    font-family: 'Mr De Haviland', cursive;
-    font-size: 70px;
-    color: #F9A392;
-    margin-top: 10px;
-}
-
-#site-slogan {
-    font-size: 15px;
-    display: block;
-}
-
 
 .breadcrumb,
 .page-title {
     display: none;
 }
 
-div.container {
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
+/* Put all elements of header */
+
+div.block-lang-dropdown > h2, #block-social-media-links-social-media-links > h2 {
+	display: none;
 }
+
+div.form-item-lang-dropdown-select {
+	position: absolute;
+}
+#block-block-3 {
+	float:right;
+    margin-top: 1.2em;
+    font-family: 'Open Sans', serif;
+    font-size: 1em;
+}
+
+/* Menu styles */
 
 #main-navigation {
     background-color: transparent;
     float: right;
     padding: 0px;
     box-shadow: none;
+    margin-right: 1.5px;
 }
 
- a.active {
+a.active {
     padding: 0px!important;
-    border-bottom: 2px solid pink;
+    color: #8ED4CC!important;
+    border-bottom: 2px solid #f9a392;
 }
 
+/* Content with weight 100% */
 
-.col-md-12 {
-    height: 10%;
+div.container {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    
+}
+body {
+    background-color: #F8F8F8;
 }
 
-div.col-md-12 > div{
-    display:inline-block;
+/* Banner atributes */
+
+.slick-slider {
+    position: relative;
+}
+
+.slick-text {
+    font-family: 'Open Sans', serif;
+    font-size: 3vw;
+    position: absolute;
+    top: 50%;  
+    left: 20%;  
+    margin:auto; 
+    display:table;
+    text-align: center;
+    color: white;
+    z-index: 9;
+    
+
     
 }
 
-#logo {
-    width: 80px;
-    border-radius: 50px;
-}
 
-.t-p1 div.field-items {
-	width: 46%;
-    margin-right: 4%;
-    float: left;
-    font-size: 20px;
-    font-weight: bold;
+.slick-dots {
+    display: flex;
     justify-content: center;
-    align-items: center;
+    z-index: 999;
+    margin: 0;
+    padding: 1rem 0;
+    
+    list-style-type: none;
+    
 }
 
-.i-p1 div.field-items img{
-	width: 46%;
-	border-radius: 10px;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
-
-div.entity.entity-paragraphs-item.paragraphs-item-texto-e-imagen {
-	display: inline-block;
-}
-
-.t-p2 div.field-items {
-	width: 46%;
-    margin-right: 4%;
-    float: right;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.i-p2 div.field-items img{
-	float: left;
-	width: 46%;
-	border-radius: 10px;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
-
-.bannerPortada > img {
-    width: 100%;
-}
-
-
-
-img {
-
+li > button {
     display: block;
-    height: auto;
-    max-width: 100%;
-    margin: auto;
-    background-color: white;
-    padding: 3px;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+            
+    border: none;
+    border-radius: 100%;
+    background-color: #8ED4CC;
+            
+    text-indent: -9999px;
+}
+li.slick-active button {
+            background-color: #f9a392;
+}
+ul.slick-dots  li {
+            margin: 0 0.25rem;
+             font-size: 0;
+}
 
- }
+
+div.slick-active  div.slick-text {
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    top: 0%;
+    
+  }
+
+  to {
+    top: 50%;
+   
+  }
+}
+*/
+/* Styles Massages Products */
 
 div.view-content {
     background-color: #F8F8F8;
 }
 
- div.imp > a > img {
-    //border-radius: 15px 50px;
- }
-
-
 
 .msj-grid {
     display: inline-block;
     vertical-align:top;
-    padding: 1%;
     width: 33%;
 }
 
@@ -133,35 +152,23 @@ div.view-content {
 
 .msj-title {
     font-family: 'Mr De Haviland', cursive;
-    font-size: 40px;
+    font-size: 3vw;
     font: bold;
-    margin:auto; 
-    display:table;
-    padding: 2%;
-}
-.msj-duracion{
-    font-family: 'Mr De Haviland', cursive;
-    font-size: 25px;
-}
-.resumen-msj {
-    font-family: 'Courgette', cursive;
-    padding: 7%;
-    //border: 1px solid blue;
-    border-radius: 0px 0px 0px 20px;
-    background-color: #8ED4CC;
-    top: -25%;
-    width: 60%;
-    margin-left: 10px;
-    margin:auto; 
-    display:table;
-    position: relative;
-    margin-top: -50px;
-}
-.msj-precio {
+    text-align: center;
+    color: #f9a392;
 
-    background-color: #F9A392;
-    border-radius: 25px;
-    font-family: 'Mr De Haviland', cursive;
+    
+  
+}
+
+.resumen-msj {
+    font-family: 'Open Sans', serif;
+    font-size: 1vw;
+    text-align: center;
+
+}
+.msj-dur-pre {
+    text-align: center;
 }
 span.views-field-field-masajes-duracion,
 span.views-field-field-masajes-precio {
@@ -171,48 +178,38 @@ span.views-field-field-masajes-precio {
     display:table;
     padding: 3%;
 }
+div.img-msj > a > img {
 
-.glyphicon {
-    font-size:70pt;
-    transform: scaleX(0.3);
-    z-index: 99;
-    background: transparent;
-    color: #889EAA;
-    border: none;
-}
+    display: block;
+    margin: auto;
+    background-color: white;
+    padding: 0.5em;
 
-.glyphicon-chevron-left {
-position: absolute;
-top: 35%;
-left:0%;
-}
+ }
 
-.glyphicon-chevron-right {
-position: absolute;
-top: 35%;
-right: 0%;
+ div.toginfo {
+    background-image: linear-gradient(top, red, red 70%, transparent 70%, transparent 100%);
+    background-image: -webkit-linear-gradient(top, red, red 70%, transparent 70%, transparent 100%)
+ }
 
-}
-
+/* Formulario */
 .text-form {
-    font-family: 'Mr De Haviland', cursive;
-    font-size: 50px;
-    color: #F9A392;
-    font: bold;
+    font-family: 'Open Sans', serif;
+    font-size: 1.5vw;
+    color: #8ED4CC;
     margin:auto; 
     display:table;
     padding: 2%;
 }
 input#edit-submitted-telefono.form-text.form-number.required {
-    border-radius: 0px;
+    border-radius: 2em;
 }
 
-.slick-text {
-    font-family: 'Courgette', cursive;
-    font-size: 40px;
-    color: white;
-    margin:auto; 
-    display:table;
-    text-align: center;
-    margin-top: -150px!important;
+input.webform-submit {
+    background-color: #8ED4CC;
+    border-radius: 3em;
+  }
+
+div.webform-component--telefono > label {
+    color: #f9a392; 
 }
