@@ -14,7 +14,7 @@
            // nextArrow:"<button type='button' class='glyphicon glyphicon-chevron-right'></button>"
 		});
 	$('.view-masajes-multilanguage > .view-content >.views-row').each(function(index) {
-		console.log(this.className);
+		console.log(this.className); 
 		
 		$(this).find('.msj-allinfo').wrapAll('<div class="toginfo" />');
 	});
