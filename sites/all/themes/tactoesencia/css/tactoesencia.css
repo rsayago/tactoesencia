@@ -55,7 +55,7 @@ div.container {
     width: 100%;
     
 }
-body {
+div.region-content {
     background-color: #F8F8F8;
 }
 
@@ -156,19 +156,23 @@ div.view-content {
     font: bold;
     text-align: center;
     color: #f9a392;
+     
+}
 
-    
-  
+.msj-title > a {
+    display: inline-block;
+    margin-top: .5em;
 }
 
 .resumen-msj {
     font-family: 'Open Sans', serif;
     font-size: 1vw;
     text-align: center;
-
+    margin-top: 2em
 }
 .msj-dur-pre {
     text-align: center;
+    margin-top: 2.6em
 }
 span.views-field-field-masajes-duracion,
 span.views-field-field-masajes-precio {
@@ -188,8 +192,18 @@ div.img-msj > a > img {
  }
 
  div.toginfo {
-    background-image: linear-gradient(top, red, red 70%, transparent 70%, transparent 100%);
-    background-image: -webkit-linear-gradient(top, red, red 70%, transparent 70%, transparent 100%)
+    background-color: white;
+    width: 20em;
+    height: 12em;
+    display: block;
+    margin: auto;
+    margin-bottom: 3em;
+    margin-top: -4em;
+    position: relative;
+    
+    background-image: linear-gradient(bottom, #f9a392, #f9a392 30%, transparent 30%, transparent 100%);
+    background-image: -webkit-linear-gradient(bottom, #f9a392, #f9a392 30%, transparent 30%, transparent 100%)
+    
  }
 
 /* Formulario */
