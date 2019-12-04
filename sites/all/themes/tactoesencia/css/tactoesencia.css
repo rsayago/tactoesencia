@@ -67,7 +67,7 @@ div.region-content {
 
 .slick-text {
     font-family: 'Open Sans', serif;
-    font-size: 3vw;
+    font-size: 4vw;
     position: absolute;
     top: 50%;  
     left: 20%;  
@@ -144,6 +144,7 @@ div.view-content {
     width: 33%;
 }
 
+
 .msj-block {
     //background-color: #BBD46D;
     //padding: 5%;
@@ -152,7 +153,7 @@ div.view-content {
 
 .msj-title {
     font-family: 'Mr De Haviland', cursive;
-    font-size: 3vw;
+    font-size: 3em;
     font: bold;
     text-align: center;
     color: #f9a392;
@@ -166,13 +167,18 @@ div.view-content {
 
 .resumen-msj {
     font-family: 'Open Sans', serif;
-    font-size: 1vw;
+    font-size: 1em;
     text-align: center;
-    margin-top: 2em
+    margin-top: 2em;
 }
 .msj-dur-pre {
+    font-family: 'Open Sans', serif;
+    font-size: 1em;
     text-align: center;
-    margin-top: 2.6em
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
 }
 span.views-field-field-masajes-duracion,
 span.views-field-field-masajes-precio {
@@ -206,6 +212,8 @@ div.img-msj > a > img {
     
  }
 
+
+
 /* Formulario */
 .text-form {
     font-family: 'Open Sans', serif;
@@ -226,4 +234,13 @@ input.webform-submit {
 
 div.webform-component--telefono > label {
     color: #f9a392; 
+}
+/* Responsive */
+@media screen and (max-width: 480px) {
+  div.toginfo {
+    width: calc(100% - 40px);
+  }
+  .msj-grid{
+    width: 100%;
+    }
 }
