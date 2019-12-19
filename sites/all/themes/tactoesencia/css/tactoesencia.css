@@ -25,7 +25,7 @@ div.form-item-lang-dropdown-select {
 	position: absolute;
 }
 #block-block-3 {
-	float:right;
+	float:left;
     margin-top: 1.2em;
     font-family: 'Open Sans', serif;
     font-size: 1em;
@@ -237,17 +237,26 @@ div.webform-component > label {
 }
 
 ::placeholder { 
-  color: #CBD2D1;
-  opacity: 0.8; 
+    color: #CBD2D1;
+    opacity: 0.8; 
 }
 
 /* Responsive */
 @media screen and (max-width: 480px) {
-  div.toginfo {
-    width: calc(100% - 40px);
-  }
-  .msj-grid{
-    width: 100%;
+    div.toginfo {
+        width: calc(100% - 40px);
+    }
+    .msj-grid{
+        width: 100%;
+    }
+
+    /* block contactanos */ 
+    #block-block-3 {
+        float: none;
+        text-align: center;
+        margin-top: 3em;
+        font-family: 'Open Sans', serif;
+        font-size: 0.8em;
     }
 }
 
