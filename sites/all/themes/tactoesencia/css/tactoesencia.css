@@ -141,7 +141,7 @@ div.view-content {
 .msj-grid {
     display: inline-block;
     vertical-align:top;
-    width: 33%;
+    width: 100%;
 }
 
 
@@ -246,10 +246,7 @@ div.webform-component > label {
     div.toginfo {
         width: calc(100% - 40px);
     }
-    .msj-grid{
-        width: 100%;
-    }
-
+    
     /* block contactanos */ 
     #block-block-3 {
         float: none;
@@ -259,4 +256,8 @@ div.webform-component > label {
         font-size: 0.8em;
     }
 }
-
+@media screen and (min-width: 1200px) {
+    .msj-grid{
+        width: 33%;
+    }
+}
