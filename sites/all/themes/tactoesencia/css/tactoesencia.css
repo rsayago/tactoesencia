@@ -25,7 +25,7 @@ div.form-item-lang-dropdown-select {
 	position: absolute;
 }
 #block-block-3 {
-	float:right;
+	float:left;
     margin-top: 1.2em;
     font-family: 'Open Sans', serif;
     font-size: 1em;
@@ -141,7 +141,7 @@ div.view-content {
 .msj-grid {
     display: inline-block;
     vertical-align:top;
-    width: 33%;
+    width: 100%;
 }
 
 
@@ -199,12 +199,12 @@ div.img-msj > a > img {
 
  div.toginfo {
     background-color: white;
-    width: 20em;
-    height: 12em;
+    width: 19em;
+    height: 15em;
     display: block;
     margin: auto;
     margin-bottom: 3em;
-    margin-top: -4em;
+    margin-top: -6em;
     position: relative;
     
     background-image: linear-gradient(bottom, #f9a392, #f9a392 30%, transparent 30%, transparent 100%);
@@ -217,13 +217,13 @@ div.img-msj > a > img {
 /* Formulario */
 .text-form {
     font-family: 'Open Sans', serif;
-    font-size: 1.5vw;
+    font-size: 1.2em;
     color: #8ED4CC;
     margin:auto; 
     display:table;
     padding: 2%;
 }
-input#edit-submitted-telefono.form-text.form-number.required {
+div.webform-component > input {
     border-radius: 2em;
 }
 
@@ -232,15 +232,32 @@ input.webform-submit {
     border-radius: 3em;
   }
 
-div.webform-component--telefono > label {
+div.webform-component > label {
     color: #f9a392; 
 }
+
+::placeholder { 
+    color: #CBD2D1;
+    opacity: 0.8; 
+}
+
 /* Responsive */
 @media screen and (max-width: 480px) {
-  div.toginfo {
-    width: calc(100% - 40px);
-  }
-  .msj-grid{
-    width: 100%;
+    div.toginfo {
+        width: calc(100% - 40px);
+    }
+    
+    /* block contactanos */ 
+    #block-block-3 {
+        float: none;
+        text-align: center;
+        margin-top: 3em;
+        font-family: 'Open Sans', serif;
+        font-size: 0.8em;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .msj-grid{
+        width: 33%;
     }
 }
