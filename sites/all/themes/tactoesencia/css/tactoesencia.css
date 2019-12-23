@@ -212,7 +212,18 @@ div.img-msj > a > img {
     
  }
 
+/* Full content */
+.full-title-msj {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 5em;
+    font: bold;
+    text-align: center;
+    color: #f9a392;
+}
 
+.full-img-msj{
+    margin-left: 15%;
+}
 
 /* Formulario */
 .text-form {

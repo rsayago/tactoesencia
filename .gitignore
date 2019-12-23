@@ -38,5 +38,5 @@ xmlrpc.php
 /scripts
 /themes
 
-# Ignore temporal files
+# Ignore tmp directory
 tmp/
