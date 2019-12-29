@@ -1,8 +1,20 @@
-/* Charge fonts */
+/* Charge web fonts */
 
 @import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* Charge local fonts */
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url(/fonts/roboto/ROBOTO-REGULAR.TTF) format('TTF');
+}
+
+@font-face {
+  font-family: 'DroidSerif';
+  src: url(/fonts/DroidSerif/DroidSerif.TTF) format('TTF');
+}
 
 /* Show off elements */
 
@@ -77,10 +89,22 @@ div.region-content {
     color: white;
     z-index: 9;
     
-
-    
 }
 
+
+.subtexto-msj {
+    font-family: 'Open Sans', serif;
+    font-size: 3vw;
+    position: absolute;
+    top: 60%;  
+    left: 20%;  
+    margin:auto; 
+    display:table;
+    text-align: center;
+    color: white;
+    z-index: 9;
+    
+}
 
 .slick-dots {
     display: flex;
@@ -130,7 +154,51 @@ div.slick-active  div.slick-text {
    
   }
 }
-*/
+
+div.slick-active  div.subtexto-msj {
+  animation-duration: 4s;
+  animation-name: subslidein;
+}
+
+@keyframes subslidein {
+  from {
+    top: 100%;
+    
+  }
+
+  to {
+    top: 60%;
+   
+  }
+}
+
+/* Bienvenida elements */ 
+
+.bvd-title {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 4em;
+    font: bold;
+    
+    color: #f9a392;
+}
+
+.bvd-thm {
+    font-family: 'Roboto-Bold';
+    font-size: 3em;
+    
+    
+}
+
+.bvd-img > img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bvd-subtext {
+   font-family: 'DroidSerif';
+    font-size: 1.5em;
+ }   
+
 /* Styles Massages Products */
 
 div.view-content {
@@ -166,13 +234,13 @@ div.view-content {
 }
 
 .resumen-msj {
-    font-family: 'Open Sans', serif;
-    font-size: 1em;
+    font-family: 'DroidSerif';
+    font-size: 1.3em;
     text-align: center;
     margin-top: 2em;
 }
 .msj-dur-pre {
-    font-family: 'Open Sans', serif;
+    font-family: 'Roboto-Bold';
     font-size: 1em;
     text-align: center;
     position: absolute;
@@ -221,14 +289,32 @@ div.img-msj > a > img {
     color: #f9a392;
 }
 
-.full-img-msj{
-    margin-left: 15%;
+
+
+.full-img-msj > div > div > img {
+    margin-top: 3%;
+    border-radius: 0px 75px 0px 0px;
+
+}
+.font-droidserift {
+    font-family: 'DroidSerif';
+    font-size: 1.5em;
+}
+
+.field-label {
+    padding: 1em 0em;
+}
+
+/* Reserva Image Block */
+
+.imageblock-image {
+    border-radius: 0px 75px 0px 0px;
 }
 
 /* Formulario */
 .text-form {
-    font-family: 'Open Sans', serif;
-    font-size: 1.2em;
+    font-family: 'Roboto-Bold';
+    font-size: 1.7em;
     color: #8ED4CC;
     margin:auto; 
     display:table;
@@ -248,6 +334,7 @@ div.webform-component > label {
 }
 
 ::placeholder { 
+    font-family: 'DroidSerif';
     color: #CBD2D1;
     opacity: 0.8; 
 }
